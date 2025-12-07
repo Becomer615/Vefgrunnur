@@ -1,0 +1,20 @@
+.col_2, .col_3, .col_4{
+    
+}
+.col_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col_2>div{
+    padding: 10px;
+}
+
+.col_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col_4 {
+    grid-template-columns: repeat(4, 1fr);
+}

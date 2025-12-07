@@ -1,0 +1,21 @@
+body{ 
+    max-width: 1280px;
+    border: crimson 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    letter-spacing: 3px;
+}
+a:link {color: rgb(0, 0, 0);}
+a:visited {color: greenyellow;}
+a:hover {color: purple;}
+a:active {color: blue;}
+
+h2{
+    color:blue;
+}
+
+.red{color: red;}
+
+.grass:link {color: greenyellow;}
