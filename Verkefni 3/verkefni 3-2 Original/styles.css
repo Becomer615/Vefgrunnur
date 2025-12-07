@@ -11,24 +11,6 @@ footer p {
   text-align: center;
 }
 
-.col-2 { 
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: auto auto;
-}
-
-.col-3 { 
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: auto auto auto;
-}
-
-.col-4 { 
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: auto auto auto auto;
-}
-
 .gulur {
 	background-color: yellow; 
 }
@@ -42,7 +24,7 @@ footer p {
 	background-color: cyan; 
 }
 
-p {
+.row p, .col p {
 	font-size: 1.2em;
 	height: 5em;
 }
