@@ -92,6 +92,12 @@ main {
     line-height: 1.6;
 }
 
+:link {color: yellow;}
+
+:visited {
+    color: #f0c330;
+}
+
 .two-column {
     display: grid; 
     gap: 1rem;
